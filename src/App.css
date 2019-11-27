@@ -1,0 +1,16 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+.display-linebreak {
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+@media print {
+  .page-break {page-break-after: always;}
+  .page-break-before {page-break-before: always;}
+}
