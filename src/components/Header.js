@@ -16,7 +16,7 @@ function Header() {
           <h3>React Engineer</h3>
           <h3>Fullstack Engineer</h3>
           <br />
-          <Button color="success" size="lg" block>Hire !</Button>
+          <Button color="success" size="lg" block tag="a" target="_blank" href="https://www.toptal.com/resume/matthieu-achard">Hire !</Button>
         </CardBody>
       </Card>
     </Col>
