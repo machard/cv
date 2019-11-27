@@ -5,7 +5,7 @@ function Header() {
   return (<Row>
     <Col xs="3">
       <Card className="h-100">
-        <CardImg top src="/profile.jpg" className="h-100 object-fit-cover" />
+        <CardImg top src="./profile.jpg" className="h-100 object-fit-cover" />
       </Card>
     </Col>
     <Col xs="5">
