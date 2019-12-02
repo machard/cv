@@ -3,12 +3,12 @@ import { Row, Col, Card, CardHeader, CardBody, CardImg, Button } from 'reactstra
 
 function Header() {
   return (<Row>
-    <Col xs="3">
+    <Col sm="3" className="mb-5">
       <Card className="h-100">
         <CardImg top src="./profile.jpg" className="h-100 object-fit-cover" />
       </Card>
     </Col>
-    <Col xs="5">
+    <Col sm="5" className="mb-5">
       <Card  className="h-100">
         <CardHeader className="text-center">Position</CardHeader>
         <CardBody className="text-center align-middle">
@@ -20,7 +20,7 @@ function Header() {
         </CardBody>
       </Card>
     </Col>
-    <Col xs="4" className="text-right">
+    <Col sm="4" className="text-right mb-5">
       <Card  className="h-100">
         <CardHeader className="text-center">About Me</CardHeader>
         <CardBody className="text-center">

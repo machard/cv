@@ -3,8 +3,8 @@ import { Row, Col, Card, CardHeader, CardBody, Media } from 'reactstrap';
 
 function Main() {
   return (<div>
-    <Row className="mt-5">
-      <Col xs="4">
+    <Row>
+      <Col sm="4" className="mb-5">
         <Card  className="h-100">
           <CardHeader className="text-center"><b>Experience</b></CardHeader>
           <CardBody className="text-center">
@@ -12,7 +12,7 @@ function Main() {
           </CardBody>
         </Card>
       </Col>
-      <Col xs="8">
+      <Col sm="8" className="mb-5">
         <Card  className="h-100">
           <CardHeader className="text-center"><b>Profile</b></CardHeader>
           <CardBody className="text-center">
@@ -23,7 +23,7 @@ function Main() {
     </Row>
     <Row>
       <Col>
-        <Card className="mt-5">
+        <Card>
           <CardHeader className="bg-info text-white"><b>Work</b> Experiences</CardHeader>
           <CardBody>
             <Media className="page-break">
@@ -141,7 +141,7 @@ I took the lead in clearing the technical debt and enhancing the development wor
                 My total traded volume has been over 450M USD. Resilience to failures and performance was KEY to this project.<br />
                 The bot was built with NodeJS and was using websockets streams, FIX APIs, Google Sheets, Kibana graphs, ElasticSearch and email alerts. FX was using OANDA realtime feed.<br />Over 15MB/s in/out of data was a common occurence. I was using a c5.xlarge instance.<br /><br />
                 The source code can be found on my github (https://github.com/machard/mm-crypto-bot). Nowadays market making has increasingly been taken over by HFT firms such as Jump Trading and Alameda and fees have been raised making it harder for independant guys like me to compete.
-                <br /><br /><Media object src="./linkedin/bot1.png" height="150" /> <Media object src="./linkedin/bot3.png" height="150" /> <Media object src="./linkedin/bot2b.png" height="80" />
+                <br /><br /><Media object src="./linkedin/bot1.png" height="150" /> <Media object src="./linkedin/bot3.png" height="150" style={{ maxWidth: '100%' }} /> <Media object src="./linkedin/bot2b.png" height="80" />
               </Media>
             </Media>
             <br /><br />
